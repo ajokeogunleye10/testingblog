@@ -1,0 +1,39 @@
+:root{
+  --Light Grayish Cyan: 180, 52%, 96%;
+  -- Light Grayish Cyan: 180, 31%, 95%;
+  -- Dark Grayish Cyan: 180, 8%, 52%;
+  --Very Dark Grayish Cyan: 180, 14%, 20%;
+}
+*::before
+::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--maincolor);
+    font-family: var(--mainfont);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    min-height: 100vh;
+
+}
+body
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin:0;
+    font-size: 15px;
+}
+img,
+picture{
+    max-width: 100%;
+    display: block;
+}
+header{
+    background: url(./images/bg-header-desktop.svg);
+    background-color: dodgerblue;
+}
